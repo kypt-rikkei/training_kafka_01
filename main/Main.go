@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-var broker = "172.16.210.157" // ~~ localhost
+var broker = "localhost" // ~~ localhost
 var topic = "myTopic"
 var reader = bufio.NewReader(os.Stdin)
 var wg = sync.WaitGroup{}
