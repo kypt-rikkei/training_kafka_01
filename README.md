@@ -1,6 +1,7 @@
 1. Resource
    1. Giải thích về các settings trong file docker-compose.yml: https://www.baeldung.com/ops/docker-compose
    2. Giải thích về KAFKA_LISTENERS VÀ KAFKA_ADVERTISED_LISTENERS: https://www.confluent.io/blog/kafka-listeners-explained/
+   3. https://blogs.sap.com/2020/11/03/kafka-service-how-it-can-be-used/
 2. Giải thích các config trong docker-compose.yml
    1. "version": version của Docker, mỗi version có các cách cài đặt hơi khác nhau
    2. "service": các service và cấu hình theo sau đó, ở đây service có zookeeper và kafka depends-on zookeeper đó
